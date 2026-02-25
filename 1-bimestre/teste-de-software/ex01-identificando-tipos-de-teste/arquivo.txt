@@ -1,0 +1,5 @@
+1 - Ele verifica uma pequena parte do sistema (como uma função ou método) de forma independente.
+
+2 - Ele valida se diferentes partes do sistema estão funcionando corretamente quando trabalham juntas.
+
+3 - Escrever o teste antes do código, depois implementar o código apenas o suficiente para o teste passar, e então refatorar se necessário.
