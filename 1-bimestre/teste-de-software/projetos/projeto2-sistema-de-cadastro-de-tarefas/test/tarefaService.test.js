@@ -1,5 +1,5 @@
-const { cadastrarTarefa } = require('../services/tarefaService')
-const { totalTarefas, limparBanco } = require('../database/tarefaDatabase')
+const { cadastrarTarefa, totalTarefas } = require('../services/tarefaService')
+const { limparBanco } = require('../database/tarefaDatabase')
 
 beforeEach(() => {
   limparBanco()

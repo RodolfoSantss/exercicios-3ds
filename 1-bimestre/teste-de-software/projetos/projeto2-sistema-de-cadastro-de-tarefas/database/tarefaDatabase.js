@@ -1,17 +1,19 @@
-const tarefas = []
+let tarefas = []
 
 function salvarTarefa(descricao) {
   tarefas.push(descricao)
 }
-function totalTarefas() {
-  return tarefas.length
+
+function listarTarefas() {
+  return tarefas
 }
-function limpar() {
-  tarefas.length = 0
+
+function limparBanco() {
+  tarefas = []
 }
 
 module.exports = {
   salvarTarefa,
-  totalTarefas,
-  limpar
+  listarTarefas,
+  limparBanco
 }
